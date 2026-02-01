@@ -32,13 +32,8 @@ The goal of this project is to present my work in a **simple, modern, and profes
 
 > Screenshots will be added soon. This section will showcase the Home page, Projects section, and Contact section of the portfolio.
 
-To add screenshots later:
-1. Create a `screenshots/` folder in the project root
-2. Add images (e.g. `home.png`, `projects.png`)
-3. Reference them here using Markdown:
-
-```md
 ![Home Page](screenshots/home.png)
+
 ```
 
 ---

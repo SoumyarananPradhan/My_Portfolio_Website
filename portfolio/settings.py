@@ -122,9 +122,9 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 # REQUIRED for production (PythonAnywhere)
-STATIC_ROOT = BASE_DIR / 'staticfiles'
+STATIC_ROOT = '/home/Soumya2025/my_portfolio_project/static'
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static')
+    BASE_DIR / 'base' / 'static')
 ]
 
 # Default primary key field type
