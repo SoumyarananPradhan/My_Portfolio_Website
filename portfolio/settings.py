@@ -124,7 +124,7 @@ STATIC_URL = '/static/'
 # REQUIRED for production (PythonAnywhere)
 STATIC_ROOT = '/home/Soumya2025/my_portfolio_project/static'
 STATICFILES_DIRS = [
-    BASE_DIR / 'base' / 'static')
+    os.path.join(BASE_DIR / 'base' / 'static')
 ]
 
 # Default primary key field type
